@@ -14,6 +14,7 @@
 		C5B1D0EF267A15640014E439 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0EE267A15640014E439 /* DailyScrum.swift */; };
 		C5B1D0F2267A15B60014E439 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F1267A15B60014E439 /* CardView.swift */; };
 		C5B1D0F4267A17670014E439 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F3267A17670014E439 /* Color+Codable.swift */; };
+		C5B1D0F6267B713D0014E439 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F5267B713D0014E439 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C5B1D0EE267A15640014E439 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		C5B1D0F1267A15B60014E439 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C5B1D0F3267A17670014E439 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		C5B1D0F5267B713D0014E439 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C5B1D0F1267A15B60014E439 /* CardView.swift */,
 				C5B1D0E42673955D0014E439 /* Assets.xcassets */,
 				C5B1D0E62673955D0014E439 /* Preview Content */,
+				C5B1D0F5267B713D0014E439 /* ScrumsView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5B1D0E32673955C0014E439 /* MeetingView.swift in Sources */,
+				C5B1D0F6267B713D0014E439 /* ScrumsView.swift in Sources */,
 				C5B1D0EF267A15640014E439 /* DailyScrum.swift in Sources */,
 				C5B1D0F2267A15B60014E439 /* CardView.swift in Sources */,
 				C5B1D0F4267A17670014E439 /* Color+Codable.swift in Sources */,
