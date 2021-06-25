@@ -26,6 +26,8 @@
 		C5B1D0F2267A15B60014E439 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F1267A15B60014E439 /* CardView.swift */; };
 		C5B1D0F4267A17670014E439 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F3267A17670014E439 /* Color+Codable.swift */; };
 		C5B1D0F6267B713D0014E439 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B1D0F5267B713D0014E439 /* ScrumsView.swift */; };
+		C5C6EB1F2685E29400622D92 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C6EB1E2685E29400622D92 /* SpeechRecognizer.swift */; };
+		C5C6EB212685E3D600622D92 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C6EB202685E3D600622D92 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,9 @@
 		C5B1D0F1267A15B60014E439 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C5B1D0F3267A17670014E439 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		C5B1D0F5267B713D0014E439 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		C5C6EB1D2685E20600622D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C5C6EB1E2685E29400622D92 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		C5C6EB202685E3D600622D92 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,7 @@
 		C5B1D0DF2673955C0014E439 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				C5C6EB1D2685E20600622D92 /* Info.plist */,
 				C5B1D0F0267A15670014E439 /* Models */,
 				C5B1D0E02673955C0014E439 /* ScrumdingerApp.swift */,
 				C5B1D0E22673955C0014E439 /* MeetingView.swift */,
@@ -100,6 +106,7 @@
 				C56C0FBD267E0EFD00507493 /* MeetingFooterView.swift */,
 				C5A094EC2684A53B00DD88FF /* MeetingTimerView.swift */,
 				C56C0FB9267D8C6600507493 /* ScrumProgressViewStyle.swift */,
+				C5C6EB202685E3D600622D92 /* HistoryView.swift */,
 				C5B1D0E42673955D0014E439 /* Assets.xcassets */,
 				C5B1D0E62673955D0014E439 /* Preview Content */,
 				C56C0FC1267E112F00507493 /* Resources */,
@@ -124,6 +131,7 @@
 				C56C0FBF267E10EA00507493 /* AVPlayer+Ding.swift */,
 				C56C0FC4267F26CD00507493 /* History.swift */,
 				C5A094EA26849AEA00DD88FF /* ScrumData.swift */,
+				C5C6EB1E2685E29400622D92 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,9 +210,11 @@
 				C5B1D0E32673955C0014E439 /* MeetingView.swift in Sources */,
 				C5B1D0F6267B713D0014E439 /* ScrumsView.swift in Sources */,
 				C56C0FC5267F26CD00507493 /* History.swift in Sources */,
+				C5C6EB1F2685E29400622D92 /* SpeechRecognizer.swift in Sources */,
 				C57DA2E8267D7F9100BA1DB9 /* EditView.swift in Sources */,
 				C56C0FC0267E10EA00507493 /* AVPlayer+Ding.swift in Sources */,
 				C5A094EB26849AEA00DD88FF /* ScrumData.swift in Sources */,
+				C5C6EB212685E3D600622D92 /* HistoryView.swift in Sources */,
 				C5A094ED2684A53B00DD88FF /* MeetingTimerView.swift in Sources */,
 				C57DA2EA267D8A1400BA1DB9 /* MeetingHeaderView.swift in Sources */,
 				C5B1D0EF267A15640014E439 /* DailyScrum.swift in Sources */,
@@ -348,6 +358,10 @@
 				DEVELOPMENT_TEAM = 95QEB5MACQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Scrumdinger;
+				INFOPLIST_KEY_CFBundleName = Scrumdinger;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -378,6 +392,10 @@
 				DEVELOPMENT_TEAM = 95QEB5MACQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scrumdinger/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Scrumdinger;
+				INFOPLIST_KEY_CFBundleName = Scrumdinger;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
